@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50E9578D-EF71-4E28-9BC3-D61E7E26C391}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DS.Web.UCenter</RootNamespace>
+    <AssemblyName>DS.Web.UCenter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\DS.Web.UCenter.XML</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\DS.Web.UCenter.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\IUcRequestArguments.cs" />
+    <Compile Include="Api\UcApiBase.cs" />
+    <Compile Include="Api\UcActions.cs" />
+    <Compile Include="Api\UcRequestArguments.cs" />
+    <Compile Include="Client\IUcClient.cs" />
+    <Compile Include="Client\UcClient.cs" />
+    <Compile Include="Client\UcModelName.cs" />
+    <Compile Include="Client\UcClientBase.cs" />
+    <Compile Include="Model\CollectionReceive\UcFeeds.cs" />
+    <Compile Include="Model\CollectionReceive\UcTags.cs" />
+    <Compile Include="Model\CollectionReceive\UcFriends.cs" />
+    <Compile Include="Model\ItemReceive\UcMailQueue.cs" />
+    <Compile Include="Model\ItemReceive\UcFeed.cs" />
+    <Compile Include="Model\ItemReceive\UcTag.cs" />
+    <Compile Include="Model\UcEnums.cs" />
+    <Compile Include="Model\CollectionReceive\UcBadWords.cs" />
+    <Compile Include="Model\CollectionReceive\UcHosts.cs" />
+    <Compile Include="Model\CollectionReceive\UcApps.cs" />
+    <Compile Include="Model\CollectionReceive\UcCreditSettings.cs" />
+    <Compile Include="Model\CollectionReceive\UcUserProtecteds.cs" />
+    <Compile Include="Model\CollectionReceive\UcPmView.cs" />
+    <Compile Include="Model\CollectionReturn\UcCreditSettingReturns.cs" />
+    <Compile Include="Model\CollectionReturn\UcTagReturns.cs" />
+    <Compile Include="Model\ItemReceive\UcBadWord.cs" />
+    <Compile Include="Model\ItemReceive\UcHost.cs" />
+    <Compile Include="Model\ItemReceive\UcApp.cs" />
+    <Compile Include="Model\ItemReceive\UcClientSetting.cs" />
+    <Compile Include="Model\ItemReceive\UcCreditSetting.cs" />
+    <Compile Include="Model\ItemReceive\UcPmCheckNew.cs" />
+    <Compile Include="Model\ItemReceive\UcPmSend.cs" />
+    <Compile Include="Model\ItemReceive\UcUserRegister.cs" />
+    <Compile Include="Model\ItemReceive\UcUserInfo.cs" />
+    <Compile Include="Model\ItemReceive\UcUserEdit.cs" />
+    <Compile Include="Model\ItemReceive\UcUserCheckEmail.cs" />
+    <Compile Include="Model\ItemReceive\UcUserProtected.cs" />
+    <Compile Include="Model\ItemReceive\UcUserMerge.cs" />
+    <Compile Include="Model\ItemReceive\UcPmBlacklsGet.cs" />
+    <Compile Include="Model\ItemReceive\UcFriend.cs" />
+    <Compile Include="Model\ItemReturn\UcTagReturn.cs" />
+    <Compile Include="Model\IDictionaryExtension.cs" />
+    <Compile Include="Model\UcCollectionReceiveBase.cs" />
+    <Compile Include="Model\UcItemReceiveBase.cs" />
+    <Compile Include="Model\ItemReceive\UcUserLogin.cs" />
+    <Compile Include="Model\ItemReturn\UcCreditSettingReturn.cs" />
+    <Compile Include="Model\UcItemReturnBase.cs" />
+    <Compile Include="Model\UcItemBase.cs" />
+    <Compile Include="Model\ItemReceive\UcPm.cs" />
+    <Compile Include="Model\UcCollectionBase.cs" />
+    <Compile Include="Model\CollectionReceive\UcPmList.cs" />
+    <Compile Include="Model\UcCollectionReturnBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UcConfig.cs" />
+    <Compile Include="UcUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

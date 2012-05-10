@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="DS.Web.UCenter.Api.UcActions" Collapsed="true">
+    <Position X="3.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAABAAEgCEiAAEgAAAAAABAAAAAQAAAAAACAAwEAQ=</HashCode>
+      <FileName>Api\UcActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Api.UcApiBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAADCFFgDcgQAMgBAAAAABAgQAgYAIgCAQAgQkEAQ=</HashCode>
+      <FileName>Api\UcApiBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DS.Web.UCenter.Api.UcRequestArguments" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAgAAABAAAAAAAAAAAAAAAIAQQ=</HashCode>
+      <FileName>Api\UcRequestArguments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcClient">
+    <Position X="30.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>HAUJAAAgILgAAQRIAMUgAoICMiAkA1AACAiA4EAEgAA=</HashCode>
+      <FileName>Client\UcClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcClientBase">
+    <Position X="28.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAgAEAAAACAAAAAAAACgIAAAAAAAAAEAA=</HashCode>
+      <FileName>Client\UcClientBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcUserModelName" Collapsed="true">
+    <Position X="7" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEwIAAAAAAUAAAAAAETAAQAAAAAABABgAACA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcPmModelName" Collapsed="true">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAIAAEgBAgAEAAFAACAABAAAABAgAEAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcFriendModelName" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAAAAAAAAAAAAAABAACAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcCreditModelName" Collapsed="true">
+    <Position X="1.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcTagModelName" Collapsed="true">
+    <Position X="8.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcFeedModelName" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcAppModelName" Collapsed="true">
+    <Position X="7" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.Client.UcMailModelName" Collapsed="true">
+    <Position X="7" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Client\UcModelName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUtility" Collapsed="true">
+    <Position X="1.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAaoAgABIAAgAAAAIAAAABAAAQCACQgAAAAAAUAA=</HashCode>
+      <FileName>UcUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcConfig" Collapsed="true">
+    <Position X="8.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJIQIgCCAAFSEiAAAEEBBAAAAghKCAQAAARhA=</HashCode>
+      <FileName>UcConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcApps" Collapsed="true">
+    <Position X="1.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcApps.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcBadWords" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcBadWords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCreditSettings" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcCreditSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcFeeds" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcFeeds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcFriends" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcFriends.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcHosts" Collapsed="true">
+    <Position X="17.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcHosts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcPmList" Collapsed="true">
+    <Position X="19.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcPmList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcPmView" Collapsed="true">
+    <Position X="22" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcPmView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcTags" Collapsed="true">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcTags.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserProtecteds" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReceive\UcUserProtecteds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCreditSettingReturns" Collapsed="true">
+    <Position X="24.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CollectionReturn\UcCreditSettingReturns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcTagReturns" Collapsed="true">
+    <Position X="26.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABAAACAAAAAAAAAACAA=</HashCode>
+      <FileName>Model\CollectionReturn\UcTagReturns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.DictionaryExtension" Collapsed="true">
+    <Position X="1.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAggAAAAAAAAAAAABAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Model\IDictionaryExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcApp" Collapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAABBQAAAwBAAEAEBAACAAAAAQAIAA=</HashCode>
+      <FileName>Model\ItemReceive\UcApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcBadWord" Collapsed="true">
+    <Position X="22.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAQAAAAEIAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Model\ItemReceive\UcBadWord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcClientSetting" Collapsed="true">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEIAgAAABAAAAAKAAgAAIAEAoEAAAADAEBAKBgA=</HashCode>
+      <FileName>Model\ItemReceive\UcClientSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCreditSetting" Collapsed="true">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAIBAAAAAAAAEAACQAAAABAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcCreditSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcFeed" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUAACAAAAABAAAAAwCAkABBAAAQAgAAUAAQA=</HashCode>
+      <FileName>Model\ItemReceive\UcFeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcFriend" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAADAAAAAAAAEBAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcFriend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcHost" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Model\ItemReceive\UcHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcMailQueue" Collapsed="true">
+    <Position X="8.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcMailQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcPm" Collapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAIAAAAAAIAEAAAAAEEAAIAAAgQA=</HashCode>
+      <FileName>Model\ItemReceive\UcPm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcPmBlacklsGet" Collapsed="true">
+    <Position X="1.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcPmBlacklsGet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcPmCheckNew" Collapsed="true">
+    <Position X="26.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAIAAAAAQAAAAACAAAAEAAABAAABAAAACAAI=</HashCode>
+      <FileName>Model\ItemReceive\UcPmCheckNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcPmSend" Collapsed="true">
+    <Position X="5.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcPmSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcTag" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIAAAAAAAAEAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserCheckEmail" Collapsed="true">
+    <Position X="1.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserCheckEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserEdit" Collapsed="true">
+    <Position X="3.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserInfo" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAEAAAAAAQAAAQAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserLogin" Collapsed="true">
+    <Position X="20" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAABAAAAQAAAEAAAAAEQAAAQAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserMerge" Collapsed="true">
+    <Position X="5.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserMerge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserProtected" Collapsed="true">
+    <Position X="29" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserProtected.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcUserRegister" Collapsed="true">
+    <Position X="8.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ItemReceive\UcUserRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCreditSettingReturn" Collapsed="true">
+    <Position X="31.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAACAA=</HashCode>
+      <FileName>Model\ItemReturn\UcCreditSettingReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcTagReturn" Collapsed="true">
+    <Position X="33.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgIAAAAAAAAAAADAACBAAAAAAAQA=</HashCode>
+      <FileName>Model\ItemReturn\UcTagReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCollectionBase" Collapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcCollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCollectionReceiveBase&lt;T, TThis&gt;" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAEAAAAAAAEAACAAAAAAQAAAAAA=</HashCode>
+      <FileName>Model\UcCollectionReceiveBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcCollectionReturnBase&lt;T&gt;" Collapsed="true">
+    <Position X="25.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAQAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcCollectionReturnBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcItemBase" Collapsed="true">
+    <Position X="17.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcItemBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcItemReceiveBase&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAgEAAAQAAAIAQAAAAAA=</HashCode>
+      <FileName>Model\UcItemReceiveBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS.Web.UCenter.UcItemReturnBase" Collapsed="true">
+    <Position X="32.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAAAIABAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcItemReturnBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DS.Web.UCenter.Api.IUcRequestArguments" Collapsed="true">
+    <Position X="26" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAABAAAAAAAAAAAAAAAIAQQ=</HashCode>
+      <FileName>Api\IUcRequestArguments.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DS.Web.UCenter.Client.IUcClient" Collapsed="true">
+    <Position X="24.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HAUJAAAgILgAAQRIAMUgAoICMiAkAUAACACA4EAAgAA=</HashCode>
+      <FileName>Client\IUcClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DS.Web.UCenter.Api.ApiReturn" Collapsed="true">
+    <Position X="12.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Api\UcApiBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.AuthCodeMethod" Collapsed="true">
+    <Position X="14" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>UcUtility.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.LoginMethod" Collapsed="true">
+    <Position X="17.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAAQAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.InfoMethod" Collapsed="true">
+    <Position X="15.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.SendMethod" Collapsed="true">
+    <Position X="14" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.PmDeleteFolder" Collapsed="true">
+    <Position X="12.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.PmReadFolder" Collapsed="true">
+    <Position X="15.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAQAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.PmReadFilter" Collapsed="true">
+    <Position X="14" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.ReadStatus" Collapsed="true">
+    <Position X="19.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.ViewType" Collapsed="true">
+    <Position X="12.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAKAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.DateRange" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAYAAAAAAAAAAAAAgAAAAAAAQA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.FriendDirection" Collapsed="true">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAIACAAAAAAI=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.UserMergeResult" Collapsed="true">
+    <Position X="19.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAABAAQAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.UserCheckEmailResult" Collapsed="true">
+    <Position X="15.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAACAAAAAAACAAAAQ=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.UserEditResult" Collapsed="true">
+    <Position X="17.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIAAAAQAAAAAAAAAAgAAACAAAAAAACAgAAQ=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.LoginResult" Collapsed="true">
+    <Position X="19.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.RegisterResult" Collapsed="true">
+    <Position X="12.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEgAAACAAAAAABCAQAAQ=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.PmSendResult" Collapsed="true">
+    <Position X="17.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQABAAAAAQAAAAAAABAgAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.AvatarType" Collapsed="true">
+    <Position X="17.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.AvatarSize" Collapsed="true">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DS.Web.UCenter.FeedIcon" Collapsed="true">
+    <Position X="12.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAEAQAAAAAAAAAAAAAACBAAAAQACAAACAAAASg=</HashCode>
+      <FileName>Model\UcEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
